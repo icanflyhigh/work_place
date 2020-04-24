@@ -1,0 +1,35 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - car",
+            "request": "launch",
+            "mainClass": "test1.car",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - son",
+            "request": "launch",
+            "mainClass": "test1.son",
+            "projectName": "test1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<test1>",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "test1"
+        }
+    ]
+}

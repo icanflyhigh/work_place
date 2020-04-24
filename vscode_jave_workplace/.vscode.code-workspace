@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"C:/Users/VULCAN/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
+		"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+		"java.home": "C:\\JAVA",
+		"java.configuration.maven.userSettings": "C:\\JAVA_MAVEN\\apache-maven-3.6.2\\conf\\settings.xml",
+		"maven.terminal.customEnv": [
+			{
+				"environmentVariable": "JAVA_HOME",
+				"value": "C:\\JAVA"
+			}
+		],
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
